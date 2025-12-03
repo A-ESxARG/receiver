@@ -1,0 +1,21 @@
+{
+  "name": "receiver",
+  "version": "1.0.0",
+  "description": "",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-ESxARG/receiver.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "operatorjen",
+  "type": "module",
+  "dependencies": {
+    "field": "github:A-ESxARG/field",
+    "wave": "github:A-ESxARG/wave"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.test.mjs"
+  }
+}
